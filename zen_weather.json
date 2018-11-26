@@ -1,0 +1,304 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "zen weather",
+            "intents": [
+                {
+                    "name": "AMAZON.FallbackIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": [
+                        "That will be all",
+                        "Thank you"
+                    ]
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                },
+                {
+                    "name": "season",
+                    "slots": [
+                        {
+                            "name": "cityName",
+                            "type": "AMAZON.AT_CITY",
+                            "samples": [
+                                "tell me weather of {cityName}",
+                                "tell me about {cityName}",
+                                "i said {cityName}",
+                                "{cityName}",
+                                "I want to know the weather of {cityName}"
+                            ]
+                        }
+                    ],
+                    "samples": [
+                        "tell me weather in {cityName}",
+                        "tell me the weather in {cityName}",
+                        "tell me weather of {cityName}",
+                        "how is weather in {cityName}",
+                        "how is the weather in {cityName}",
+                        "what is weather of {cityName}",
+                        "hows it in {cityName}",
+                        "how is it in {cityName}",
+                        "whats weather in {cityName}",
+                        "whats the weather in {cityName}",
+                        "what is the weather in {cityName}",
+                        "what is weather in {cityName}",
+                        "whats it like in {cityName}",
+                        "can i know weather of {cityName}",
+                        "what is the weather for {cityName}",
+                        "{cityName}",
+                        "weather in {cityName}",
+                        "can i know the weather of {cityName}",
+                        "whats weather like in {cityName}",
+                        "can you tell me weather of {cityName}",
+                        "can i please know the weather of {cityName}",
+                        "{cityName} weather",
+                        "weather of {cityName}",
+                        "whats the weather like in {cityName}",
+                        "tell me the weather of {cityName}",
+                        "weather {cityName}",
+                        "What is the weather of {cityName}"
+                    ]
+                },
+                {
+                    "name": "greeting",
+                    "slots": [
+                        {
+                            "name": "GoodEvening",
+                            "type": "Good_Evening"
+                        },
+                        {
+                            "name": "GoodMorning",
+                            "type": "Good_Morning"
+                        },
+                        {
+                            "name": "Hey",
+                            "type": "Hey"
+                        }
+                    ],
+                    "samples": [
+                        "Whats up alexa",
+                        "Whats up",
+                        "heya alexa",
+                        "heya",
+                        "{Hey} ",
+                        "hi",
+                        "Hello",
+                        "yo",
+                        "yo Alexa",
+                        "{GoodMorning} Alexa",
+                        "{GoodEvening} Alexa",
+                        "How are you",
+                        "{GoodMorning}",
+                        "{GoodEvening}",
+                        "How are you doing Alexa",
+                        "How are you doing",
+                        "How are you Alexa"
+                    ]
+                },
+                {
+                    "name": "AMAZON.PauseIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.ResumeIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.MoreIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NavigateSettingsIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NextIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.PageUpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.PageDownIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.PreviousIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.ScrollRightIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.ScrollDownIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.ScrollLeftIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.ScrollUpIntent",
+                    "samples": []
+                }
+            ],
+            "types": [
+                {
+                    "name": "AMAZON.AT_CITY",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "goa"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Kochi"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Banglore"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "lucknow"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Pune"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Chennai"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Ahmedabad"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Kolkata"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "New Delhi"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Delhi"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Mumbai"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "Good_Morning",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "Good morning"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "Good_Evening",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "Good evening"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "Hey",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "hey"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        "dialog": {
+            "intents": [
+                {
+                    "name": "season",
+                    "confirmationRequired": false,
+                    "prompts": {},
+                    "slots": [
+                        {
+                            "name": "cityName",
+                            "type": "AMAZON.AT_CITY",
+                            "confirmationRequired": false,
+                            "elicitationRequired": true,
+                            "prompts": {
+                                "elicitation": "Elicit.Slot.1078611285114.187964266021"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        "prompts": [
+            {
+                "id": "Elicit.Slot.1078611285114.187964266021",
+                "variations": [
+                    {
+                        "type": "PlainText",
+                        "value": "Which place?"
+                    },
+                    {
+                        "type": "PlainText",
+                        "value": "Weather for What location?"
+                    },
+                    {
+                        "type": "PlainText",
+                        "value": "What city are you looking for?"
+                    },
+                    {
+                        "type": "PlainText",
+                        "value": "Can you mention the city please?"
+                    },
+                    {
+                        "type": "PlainText",
+                        "value": "You want to know weather of which city again?"
+                    },
+                    {
+                        "type": "PlainText",
+                        "value": "Which City?"
+                    }
+                ]
+            }
+        ]
+    }
+}
